@@ -1,6 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --color-dark: #1f2937;
+  --white: #f9faf8;
+  --light-gray: #e5e7eb;
+  --blue: #3882f6;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
