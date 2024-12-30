@@ -131,3 +131,27 @@ header {
   text-align: center;
   line-height: 1;
 }
+
+.quotes {
+  background-color: var(--light-gray);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.quotes .wrapper {
+  max-width: 800px;
+}
+
+.quotes__content {
+  color: var(--color-dark);
+  font-size: 2.25rem;
+  font-weight: light;
+  font-style: italic;
+}
+
+.quotes__author {
+  color: var(--color-dark);
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: right;
+}
