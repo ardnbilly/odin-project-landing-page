@@ -1,94 +1,95 @@
 :root {
-    --color-dark: #1f2937;
-    --white: #f9faf8;
-    --light-gray: #e5e7eb;
-    --blue: #3882f6;
-    --padding-container: 360px;
+  --color-dark: #1f2937;
+  --white: #f9faf8;
+  --light-gray: #e5e7eb;
+  --blue: #3882f6;
+  --padding-container: 360px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Sans-Serif;
-    margin: 0 auto;
+  font-family: Sans-Serif;
+  margin: 0 auto;
 }
 
 header {
-    background-color: var(--color-dark);
+  background-color: var(--color-dark);
 }
 
 .wrapper {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
 }
 
 .header__logo {
-    color: var(--white);
-    font-size: 1.5rem;
+  color: var(--white);
+  font-size: 1.5rem;
 }
 
 .menu {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .menu__link {
-    color: var(--light-gray);
-    font-size: 1.125rem;
-    text-decoration: none;
+  color: var(--light-gray);
+  font-size: 1.125rem;
+  text-decoration: none;
 }
 
 .hero {
-    background-color: var(--color-dark);
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  background-color: var(--color-dark);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 7rem;
+  padding-bottom: 8rem;
 }
 
 .hero__content {
-    flex: 1;
+  flex: 1;
 }
 
 .hero__heading {
-    font-size: 3rem;
-    line-height: 1.1;
-    margin-bottom: 0.5rem;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
 }
 
 .hero__subheading {
-    color: var(--light-gray);
-    font-size: 1.125rem;
-    max-width: 410px;
-    margin-bottom: 1rem;
+  color: var(--light-gray);
+  font-size: 1.125rem;
+  max-width: 410px;
+  margin-bottom: 1rem;
 }
 
 .btn {
-    border: none;
-    background-color: var(--blue);
-    color: var(--white);
-    font-weight: 500;
-    font-size: 16px;
-    padding: 0.5em 2em;
-    border-radius: 4px;
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.5em 2em;
+  border-radius: 4px;
 }
 
 .hero__image {
-    height: 250px;
-    background-color: var(--light-gray);
-    width: 50%;
+  height: 250px;
+  background-color: var(--light-gray);
+  width: 50%;
 }
