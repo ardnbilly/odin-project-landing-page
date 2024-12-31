@@ -96,8 +96,8 @@ header {
 }
 
 .info .wrapper {
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
 }
 
 .info__heading {
@@ -179,4 +179,14 @@ header {
   background-color: var(--blue);
   color: var(--white);
   border: 2px solid var(--white);
+}
+
+footer {
+  background-color: var(--color-dark);
+  padding: 2rem;
+}
+
+.footer__content {
+  color: var(--white);
+  text-align: center;
 }
