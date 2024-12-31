@@ -155,3 +155,28 @@ header {
   font-weight: 800;
   text-align: right;
 }
+
+.cta {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.cta .wrapper {
+  background-color: var(--blue);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7rem;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.cta__heading {
+  font-size: 1.5rem;
+}
+
+.cta__btn {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 2px solid var(--white);
+}
