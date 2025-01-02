@@ -190,3 +190,45 @@ footer {
   color: var(--white);
   text-align: center;
 }
+
+@media only screen and (max-width: 1070px) {
+  .wrapper {
+    max-width: 850px;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .wrapper {
+    max-width: 768px;
+  }
+
+  .quotes__content {
+    font-size: 1.75rem;
+  }
+
+  .quotes .wrapper {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .cta .wrapper {
+    padding: 3rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 700px;
+  }
+
+  .hero__heading {
+    font-size: 2.25rem;
+  }
+
+  .hero__subheading {
+    font-size: 1rem;
+  }
+  .cta .wrapper {
+    padding: 2rem 1.5rem;
+  }
+}
